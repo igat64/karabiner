@@ -94,7 +94,7 @@
         },
         {
           "from": {
-            "key_code": "x",
+            "key_code": "h",
             "modifiers": {
               "mandatory": [
                 "left_shift",
