@@ -2,7 +2,7 @@
   "title": "Hyper key IJKL navigation",
   "rules": [
     {
-      "description": "Change Hyper + I/J/K/L to Arrow Keys, X to forward delete",
+      "description": "Change Hyper + I/J/K/L to Arrow Keys, Hyper + H to forward delete",
       "manipulators": [
         {
           "from": {
