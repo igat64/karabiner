@@ -3,7 +3,7 @@
   "rules": [
     {
       "description":
-        "Change Hyper + I/J/K/L to Arrow Keys, Hyper + H to forward delete",
+        "Change Hyper + I/J/K/L to Arrow Keys",
       "manipulators": [
         {
           "from": {
