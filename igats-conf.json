@@ -3,7 +3,7 @@
   "rules": [
     {
       "description":
-        "Change Hyper + I/J/K/L to Arrow Keys, Hyper + H to forward delete",
+        "Change Hyper + I/J/K/L to Arrow Keys",
       "manipulators": [
         {
           "from": {
@@ -114,24 +114,24 @@
       "description": "Disable arrows",
       "manipulators": [
         {
-          "type": "basic",
           "from": { "key_code": "left_arrow" },
-          "to": [{ "key_code": "vk_none" }]
+          "to": [{ "key_code": "vk_none" }],
+          "type": "basic"
         },
         {
-          "type": "basic",
           "from": { "key_code": "right_arrow" },
-          "to": [{ "key_code": "vk_none" }]
+          "to": [{ "key_code": "vk_none" }],
+          "type": "basic"
         },
         {
-          "type": "basic",
           "from": { "key_code": "up_arrow" },
-          "to": [{ "key_code": "vk_none" }]
+          "to": [{ "key_code": "vk_none" }],
+          "type": "basic"
         },
         {
-          "type": "basic",
           "from": { "key_code": "down_arrow" },
-          "to": [{ "key_code": "vk_none" }]
+          "to": [{ "key_code": "vk_none" }],
+          "type": "basic"
         }
       ]
     },
@@ -139,9 +139,9 @@
       "description": "Disable Delete",
       "manipulators": [
         {
-          "type": "basic",
           "from": { "key_code": "delete_or_backspace" },
-          "to": [{ "key_code": "vk_none" }]
+          "to": [{ "key_code": "vk_none" }],
+          "type": "basic"
         }
       ]
     }
