@@ -87,7 +87,7 @@
       ]
     },
     {
-      "description": "Change Hyper + H to forward delete",
+      "description": "Change Hyper + H to Delete",
       "manipulators": [
         {
           "from": {
@@ -102,11 +102,7 @@
               "optional": ["any"]
             }
           },
-          "to": [
-            {
-              "key_code": "delete_forward"
-            }
-          ],
+          "to": [{ "key_code": "delete_or_backspace" }],
           "type": "basic"
         }
       ]
