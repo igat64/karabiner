@@ -2,8 +2,7 @@
   "title": "Igat's configuration",
   "rules": [
     {
-      "description":
-        "Change Hyper + I/J/K/L to Arrow Keys",
+      "description": "Change Hyper + I/J/K/L to Arrow Keys",
       "manipulators": [
         {
           "from": {
@@ -89,29 +88,31 @@
     },
     {
       "description": "Change Hyper + H to forward delete",
-      "manipulators": {
-        "from": {
-          "key_code": "h",
-          "modifiers": {
-            "mandatory": [
-              "left_shift",
-              "left_command",
-              "left_control",
-              "left_option"
-            ],
-            "optional": ["any"]
-          }
-        },
-        "to": [
-          {
-            "key_code": "delete_forward"
-          }
-        ],
-        "type": "basic"
-      }
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_command",
+                "left_control",
+                "left_option"
+              ],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     },
     {
-      "description": "Disable arrows",
+      "description": "Disable Arrows",
       "manipulators": [
         {
           "from": { "key_code": "left_arrow" },
