@@ -143,7 +143,7 @@
       ]
     },
     {
-      "description": "Change double LeftSift to togle Capslock",
+      "description": "Change double LeftShift to toggle CapsLock",
       "manipulators": [
       {
         "type": "basic",
