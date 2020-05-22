@@ -3,35 +3,34 @@
   "rules": [
     {
       "description": "Change caps_lock to command+control+option+shift, to escape if pressed alone",
-      "from": {
-        "key_code": "caps_lock",
-        "modifiers": {
-          "optional": [
-            "any"
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "modifiers": [
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "escape"
+            }
           ]
         }
-      },
-      "to": [
-        {
-          "key_code": "left_shift",
-          "modifiers": [
-            "left_command",
-            "left_control",
-            "left_option"
-          ]
-        }
-      ],
-      "to_if_alone": [
-        {
-          "key_code": "escape",
-          "modifiers": {
-            "optional": [
-              "any"
-            ]
-          }
-        }
-      ],
-      "type": "basic"
+      ]
     },
     {
       "description": "Change Hyper + I/J/K/L to Arrow Keys",
