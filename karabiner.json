@@ -243,6 +243,7 @@
       "description": "Change caps_lock to escape if pressed alone",
       "manipulators": [
         {
+          "type": "basic",
           "from": {
             "key_code": "caps_lock"
           },
