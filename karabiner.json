@@ -238,6 +238,21 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Change caps_lock to escape if pressed alone",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to_if_alone": [
+            {
+              "key_code": "escape"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
