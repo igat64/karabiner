@@ -2,7 +2,7 @@
   "title": "Personal configuration",
   "rules": [
     {
-      "description": "Change caps_lock to command+control+option+shift, to escape if pressed alone",
+      "description": "Change caps_lock to command+control+option+shift",
       "manipulators": [
         {
           "type": "basic",
@@ -23,7 +23,18 @@
                 "left_option"
               ]
             }
-          ],
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change Fn to Escape if pressed alone",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "fn"
+          },
           "to_if_alone": [
             {
               "key_code": "escape"
